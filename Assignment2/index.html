@@ -1,1 +1,14 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF Data Extraction</title>
+</head>
+<body>
+    <h1>PDF Data Extraction</h1>
+    <form action="/extract" method="post" enctype="multipart/form-data">
+        <input type="file" name="pdf_file">
+        <input type="submit" value="Extract Data">
+    </form>
+    <div id="results"></div>
+</body>
+</html>
