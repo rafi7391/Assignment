@@ -14,6 +14,7 @@ The file 'sample1.csv' that contains the extracted data.The CSV file will have t
 
 ## Assignment-2 Details
 
-The 'Index.html' file can create the sample flask webpage that allows users to upload a PDF file, and displays the extracted  data on the web page.
+The 'index.html' file can create the sample flask webpage that allows users to upload a PDF file, and displays the extracted  data on the web page.
 
-python app.py
+Here, I have created the flask application and defines two routes:'/' and '/extract'. The '/' route renders the 'index.html' page, which contains the form for uploading the PDF file. The `/extract` route handles the form submission and extracts the data from the PDF file. The extracted data is then rendered to the results.html page.
+
