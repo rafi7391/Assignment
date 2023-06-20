@@ -2,7 +2,7 @@ import re
 import PyPDF2
 # Open the PDF file
 pdfFile = open('sample1.pdf', 'rb')
-# Create a PDF reader object
+# Creating the pdfReader object
 pdfReader = PyPDF2.PdfReader(pdfFile)
 # Get the number of pages in the PDF
 numPages = len(pdfReader.pages)
