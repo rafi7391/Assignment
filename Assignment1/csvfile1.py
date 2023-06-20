@@ -1,16 +1,16 @@
 import PyPDF2
 
 def extract_key_value_pairs(sample1):
-    keyValuePairs = []  # Define the variable here
+    keyValuePairs = []  # Defining the variable here
     
     with open(sample1, 'rb') as file:
         reader = PyPDF2.PdfReader(file)
         
-        # Extract text from each page
+        # Extracting text from each page
         for page in reader.pages:
             text = page.extract_text()
             
-            # Process the extracted text to find key-value pairs
+            # Process of extracted text to find key-value pairs
             lines = text.split('\n')
             for line in lines:
                 # Assuming the key-value pairs are separated by a colon (e.g., "Key: Value")
