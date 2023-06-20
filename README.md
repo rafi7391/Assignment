@@ -10,3 +10,10 @@ The `PyPDF2` library is used to read the PDF file. The `PdfFileReader` object is
 A CSV file that contains the extracted data.
 
 The file 'sample1.csv' that contains the extracted data.The CSV file will have two columns: 'key' and 'Value'. 
+
+
+## Assignment-2 Details
+
+The 'Index.html' file can create the sample flask webpage that allows users to upload a PDF file, and displays the extracted  data on the web page.
+
+python app.py
